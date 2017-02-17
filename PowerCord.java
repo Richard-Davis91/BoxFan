@@ -1,4 +1,4 @@
-package edu.jalc.boxfan;
+package boxfan;
 
 class PowerCord{
   boolean pluggedIn;

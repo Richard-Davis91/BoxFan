@@ -1,4 +1,4 @@
-package edu.jalc.boxfan;
+package boxfan;
 
 class FanBlades{
   private int length;

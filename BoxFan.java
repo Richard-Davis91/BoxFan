@@ -1,7 +1,7 @@
-package edu.jalc.boxfan;
-import edu.jalc.boxfan.FanCase;
-import edu.jalc.boxfan.FanBlades;
-import edu.jalc.boxfan.Motor;
+package boxfan;
+import boxfan.FanCase;
+import boxfan.FanBlades;
+import boxfan.Motor;
 
 class BoxFan{
   private BoxFan boxFan;

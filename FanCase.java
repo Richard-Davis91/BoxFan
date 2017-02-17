@@ -1,5 +1,5 @@
-package edu.jalc.boxfan;
-import edu.jalc.boxfan.FanBlades;
+package boxfan;
+import boxfan.FanBlades;
 
 class FanCase{
 
@@ -9,9 +9,9 @@ class FanCase{
   FanBlades fanBlades;
 
   private FanCase(){
-    this.height = 0;
+    this.height = 2;
     this.length = this.height;
-    this.width = 0;
+    this.width = 1;
     fanBlades.setFanBladeLength(this.height - 1);
   }
 
@@ -20,7 +20,7 @@ class FanCase{
   public int getFanCaseWidth(){return this.width;}
 
   public void setFanCaseHeight(int height){
-    this.height = fanBlades.setFanBladeLength(this.height - 1);
+    this.height = height;
     this.length = this.height;
 
   }

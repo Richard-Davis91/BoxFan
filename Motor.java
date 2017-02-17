@@ -1,5 +1,5 @@
-package edu.jalc.boxfan;
-import edu.jalc.boxfan.ControlSwitch;
+package boxfan;
+import boxfan.ControlSwitch;
 
 class Motor{
   boolean motorOn;

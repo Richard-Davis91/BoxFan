@@ -1,9 +1,7 @@
-package edu.jalc.boxfan;
-import edu.jalc.boxfan.PowerCord;
-
+package boxfan;
+import boxfan.PowerCord;
 
 class ControlSwitch{
-  private ControlSwitch controlSwitch;
   private PowerCord powerCord;
   private int fanPowerSetting;
 
