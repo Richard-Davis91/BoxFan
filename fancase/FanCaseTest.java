@@ -1,5 +1,5 @@
 package boxfan;
-import boxfan.FanCase;
+import boxfan.fancase.FanCase;
 
 class FanCaseTest{
 
