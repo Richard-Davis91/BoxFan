@@ -1,23 +1,23 @@
-package boxfan;
-import boxfan.PowerCord;
+package boxfan.controlswitch;
+import boxfan.powercord.PowerCord;
 
-class ControlSwitch{
+public class ControlSwitch{
   private PowerCord powerCord;
   private int fanPowerSetting;
 
-  private ControlSwitch(){this.fanPowerSetting = 0;}
+  public ControlSwitch(){this.fanPowerSetting = 0;}
 
-  public void getFanPower(){
+  public int getFanPower(){
     switch (this.fanPowerSetting){
       case 0: System.out.println("Fan is off");
-              break;
+              return this.fanPowerSetting;
       case 1: System.out.println("Fan is on Low");
-              break;
+              return this.fanPowerSetting;
       case 2: System.out.println("Fan is on Med");
-              break;
+              return this.fanPowerSetting;
       case 3: System.out.println("Fan is on High");
-              break;
-    }
+              return this.fanPowerSetting;
+    }return this.fanPowerSetting;
   }
   public int setFanPower(int fanPowerSetting)throws Exception{
     try{
@@ -27,6 +27,7 @@ class ControlSwitch{
       }
       return this.fanPowerSetting = fanPowerSetting;
     }catch(Exception e){
+      System.out.println("Fan settings only go from 0-3");
       return this.fanPowerSetting = 0;
     }
   }

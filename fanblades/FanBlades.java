@@ -1,9 +1,9 @@
-package boxfan;
+package boxfan.fanblades;
 
-class FanBlades{
+public class FanBlades{
   private int length;
 
-  private FanBlades(){this.length = 0;}
+  public FanBlades(){this.length = 0;}
 
   public int setFanBladeLength(int length){return this.length = length;}
 

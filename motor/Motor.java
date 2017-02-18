@@ -1,11 +1,9 @@
-package boxfan;
-import boxfan.ControlSwitch;
+package boxfan.motor;
 
-class Motor{
-  boolean motorOn;
-  ControlSwitch controlSwitch;
+public class Motor{
+  private boolean motorOn;
 
-  private Motor(){
+  public Motor(){
     this.motorOn = false;
   }
   public boolean isMotorOn(){return this.motorOn;}

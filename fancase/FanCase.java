@@ -1,18 +1,16 @@
-package boxfan;
-import boxfan.FanBlades;
+package boxfan.fancase;
+import boxfan.fanblades.FanBlades;
 
-class FanCase{
+public class FanCase{
 
   private int height;
   private int length;
   private int width;
-  FanBlades fanBlades;
 
-  private FanCase(){
+  public FanCase(){
     this.height = 2;
     this.length = this.height;
     this.width = 1;
-    fanBlades.setFanBladeLength(this.height - 1);
   }
 
   public int getFanCaseHeight(){return this.height;}
