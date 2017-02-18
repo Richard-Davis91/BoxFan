@@ -1,14 +1,17 @@
 package boxfan;
-import boxfan.FanCase;
-import boxfan.FanBlades;
-import boxfan.Motor;
+import boxfan.fancase.FanCase;
+import boxfan.fanblades.FanBlades;
+import boxfan.motor.Motor;
+import boxfan.controlswitch.ControlSwitch;
 
-class BoxFan{
+public class BoxFan{
   private BoxFan boxFan;
   private FanCase fanCase;
   private Motor motor;
   private ControlSwitch controlSwitch;
   private FanBlades fanBlades;
 
-  private BoxFan boxFan(){return this.boxFan;}
+  public static void main(String... args){
+
+  }
 }
